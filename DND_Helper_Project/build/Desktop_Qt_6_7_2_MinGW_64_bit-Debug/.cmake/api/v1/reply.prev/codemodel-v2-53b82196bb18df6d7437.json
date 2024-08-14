@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d52b5eb5241b7a25797a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DND_Helper_Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DND_Helper_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DND_Helper_Project-Debug-e539627281038cd019c9.json",
+					"name" : "DND_Helper_Project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DND_Helper_Project_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DND_Helper_Project_autogen-Debug-912748a95f9d5e0735b5.json",
+					"name" : "DND_Helper_Project_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DND_Helper_Project_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DND_Helper_Project_autogen_timestamp_deps-Debug-038a2aa1d49638d5d365.json",
+					"name" : "DND_Helper_Project_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
