@@ -144,7 +144,11 @@ G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/m
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/QMainWindow
+ mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/QMessageBox
+ mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qdialog.h
+ mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h
+ mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
@@ -354,8 +358,11 @@ G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/m
  mdp:G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/basedie.h
  mdp:G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/moc_predefs.h
  mdp:G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/mainwindow.h
+ mdp:G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/wildmagic.h
 G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/main.cpp
+G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/wildmagic.cpp
 G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/mainwindow.cpp
  uic:./ui_mainwindow.h
 G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/basedie.h
 G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/basedie.cpp
+G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/wildmagic.h

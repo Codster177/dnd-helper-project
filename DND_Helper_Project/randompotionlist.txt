@@ -1,0 +1,225 @@
+2
+10
+100
+10
+100
+1. Potion
+2. Elixir
+3. Draught
+4. Vial
+5. Philter
+6. Tonic
+7. Brew
+8. Ichor
+9. Juice
+10. Concoction
+1. Healing. It instantly regenerates some health when drank.
+2. Vigor. Gives temporary health when drank.
+3. Vitality. It slowly regenerates health over a period of some hours.
+4. Might. It gives a bonus to attack rolls after drinking.
+5. Courage. Gives immunity to fear and some temporary inspiration.
+6. Giant Strength. It gives the user much more strength.
+7. Flame Resistance. It gives resistance to fire damage.
+8. Cold Resistance. It gives resistance to cold damage.
+9. Necro Resistance. Gives resistance to necrotic damage.
+10. Radiant Resistance. Gives resistance to radiant damage.
+11. Stoneskin. Gives resistance to martial damage.
+12. Acid Resistance. Gives resistance to acid.
+13. Lightning Resistance. Gives resistance to lightning damage.
+14. Succubus Charm. Makes the drinker irresistible to nearby people.
+15. Shielding. Gives the user a magical shield of energy.
+16. Flame Breath. Gives the user fire breath for a short time.
+17. Growth. Makes the user double in size.
+18. Shrinking. Makes the user half in size.
+19. Comprehension. Lets the user understand all languages.
+20. Fertility. Makes the user very fertile, almost certain to make a baby under its effects!
+21. Intimidation. Gives the user a huge booming voice that terrifies those around.
+22. Luck. It gives the user a temporary boost to luck.
+23. Mana. Gives the user more magical power to cast with.
+24. Arcane. Gives the user more powerful spells.
+25. Animal form. Makes the user turn into a random animal.
+26. Dreams. Makes the user get lost in a hallucinary dream world of their perfect dream.
+27. Nightmares. Makes the user get lost in a hallucinary dream world of their worst nightmares.
+28. Stamina. Gives the user more stamina and constitution.
+29. Fleet foot. Makes the user have more speed.
+30. Knowledge. Increases the users intelligence temporarily.
+31. The Bard. Increases the users charisma temporarily.
+32. Disguise. Changes the users form to a disguised form of any race and appeance.
+33. Feast. Removes all hunger and thirst from the target.
+34. Youth. Makes the user grow some years younger.
+35. Age. Makes the user grow some years older.
+36. Furnace. Makes the user radiate with a damaging aura.
+37. Eagle Sight. Gives the user strong vision and a bonus to perception.
+38. Health. Cures all diseases and illnesses.
+39. Invulnerability. Freezes the user in stasis that makes them immune to damage but they cannot move or act.
+40. Riddle me gone. Gives the user the cure to a single riddle.
+41. Horrifying appearance. Makes the user look more ugly for a time.
+42. Beautiful appearance. Makes the user appear more attractive for a time.
+43. Swordsmanship. Makes the user more effective and versatile with a blade.
+44. Bowmanship. Makes the user more effective with a bow or ranged weapon.
+45. Nymph Breath. Gives water breathing.
+46. Midas. Makes the user turn things to gold.
+47. Berserker. Makes the user rage with great strength.
+48. Utter Hatred. Makes the user have bonuses against a particular type of enemy.
+49. Oracle. Lets the user divinate the future.
+50. Demonic Leech. Heals a portion of all damage the user deals.
+51. Fey Nature. Lets the user become one with animals and nature around them.
+52. Tracelessness. Makes the user very hard to follow.
+53. Gracefulness. Makes the user have a better acrobatics skill.
+54. Goblin Climb. Gives the user a bonus to climbing.
+55. Dead Ringer. Makes the user appear completely dead to all magic.
+56. One Leafed Clover. Gives the user worst luck.
+57. Possession. Lets the user gain control of a nearby creature, their body comatosed while they do.
+58. Owls Wake. Makes the user need no sleep for a time.
+59. Hawks Flight. Lets the user fly.
+60. Peace. Makes the user very calm and unable to harm others.
+61. Rejuvenation. Heals a single scar or bad injury on the user such as a missing arm.
+62. Sphinxes Truth. Makes the user tell the truth.
+63. Serpent Tongue. Makes the user only able to lie.
+64. Navigation. Makes the user unable to get lost and find where they need.
+65. Hook Horror. The users hands become sharp weaponised blades.
+66. Schaffensfreude. Makes the enemies take damage as they deal it to the user.
+67. Invisibility. Makes the user invisible.
+68. Wild magic. Taps into wild magic making an absolutely random thing happen.
+69. Fame. Makes the user more famous.
+70. Goats Trek. Makes the user immune to the toils of long travels and bad weather.
+71. Gargoyle Toughness. Increases the users constitution.
+72. Atomic Clock. Lets the user know the exact tme and date.
+73. Transmutation. Lets the user have the ability to change somethings properties.
+74. Iron Skin. Turns the users skin to metal giving them many resistances.
+75. Sex Change. Changes the users gender.
+76. Race Change. Changes the users race.
+77. Musical Breath. Makes the user say everything in song, and fey music follows them in the air.
+78. Utter Understanding. Makes the user know very intimately about one exact thing. Random, or they can decide.
+79. Split Form. The user turns into two or three tiny versions of themselves and controls them all.
+80. Flavour. Makes anything and everything taste amazing!
+81. Glimmer. Makes the user and its gear instantly clean and as good looking as possible.
+82. Love. Makes the user and someone else fall in love.
+83. Poison. Poisons the user, weakening them.
+84. Rebirth. Resurrects the user if they die soon after drinking.
+85. Elemental form. Turns the user to an elemental form relevant to their personality.
+86. True form. Turns the user into a familiar like creature similar to their personality.
+87. Gods Touch. Gives the user a holy connection to their god or fiendish deity.
+88. Antidepressant. Does what it says on the tin.
+89. Ghostly Form. Makes the user intangible and able to phase through objects.
+90. Artisans Skill. Gives the user skill in a particular art temporarily.
+91. Godly form. Improves all stats.
+92. Bless Weapon. Makes the users weapons do more damage.
+93. Euphoria. Makes the user feel amazing and trip out.
+94. Bodyguard. Creates a spectral bodyguard for a short time who obeys orders.
+95. Babelfish. Lets the user speak any language but not understand it.
+96. Preservation. Stops whatever its poured on from rotting or degrading.
+97. Fear. Makes the user terrified.
+98. Night vision. Gives the ability to see in the dark.
+99. Tracking. Lets the user track an enemy.
+100. Cure-all. Cures any status effects.
+1. Regular with a slight side effect.
+2. Regular with no side effect.
+3. Regular with a strong side effect.
+4. Minor with a strong side effect.
+5. Minor with a slight side effect.
+6. Major with a strong side effect.
+7. Major with a small side effect.
+8. A poison. Almost no positive affect all side effect.
+9. Temporary but strong and wears off quickly.
+10. Seemingly permanent.
+1. Nothing bad at all!
+2. Puts the user to sleep.
+3. Rapid hair growth all over the body.
+4. Bleeding from the eyes.
+5. Vivid hallucinations.
+6. Flashbacks of your own eventual demise.
+7. The skin to crack and appear distorted.
+8. Spots to grow on the skin.
+9. Diarrhoea.
+10. Vomiting.
+11. Blurred Vision.
+12. Blindness.
+13. Deafness.
+14. Mutism.
+15. Health loss via rapid bleeding.
+16. A sudden horrific accent.
+17. The irresistible urge to dance.
+18. The hearing of demons.
+19. Loss of balance.
+20. Everything tasting like dirt for some time.
+21. Excessive drooling.
+22. Loss of intelligence.
+23. Loss of strength.
+24. Loss of speed.
+25. Loss of charisma.
+26. Genuine happiness.
+27. Hunger.
+28. Thirst.
+29. Trouble breathing.
+30. Sudden Moustache.
+31. Poisoning.
+32. Petrification.
+33. Stunning.
+34. Immobilisation.
+35. Increased libido.
+36. Fidgeting.
+37. Itchiness.
+38. Rashes.
+39. Attracts bears.
+40. Magically covers in dirt.
+41. Horrifying stench.
+42. Baldness.
+43. Swelling.
+44. Loss of a random item.
+45. Curses.
+46. Damage.
+47. Weakness to a magical damage type.
+48. Weakness to physical damage.
+49. Feelings of Guilt
+50. Feelings of Anxiety.
+51. Feelings of Shame.
+52. Sneezing.
+53. Uncontrollable crying.
+54. Need to sing heroic music.
+55. Urge to hug.
+56. Kleptomania.
+57. Burping.
+58. Loss of smell.
+59. Insomnia.
+60. Paranoia.
+61. Bad luck.
+62. Summons imps that want to kill you.
+63. Summons angry bees.
+64. Fear of something.
+65. Temporary madness.
+66. Relaxation.
+67. Appreciation of colours and sound.
+68. Tripping the hell out.
+69. Painful lust.
+70. Light headedness.
+71. Increased confidence.
+72. Recklessness.
+73. Rage.
+74. Sadness.
+75. Dizziness.
+76. Pain.
+77. Slight possession.
+78. Allergic reaction to your favourite food.
+79. Strong believe you’re someone else.
+80. Severe debt.
+81. Grumpiness.
+82. Muscle spasms.
+83. A bloated feeling.
+84. A cold.
+85. A fever.
+86. Becoming strangely light.
+87. Weakness.
+88. The urge to fight.
+89. The need to make friends.
+90. Nausea.
+91. Mood swings.
+92. Addiction.
+93. Need for booze.
+94. Drunkeness.
+95. Coughing.
+96. Uncontrollable babbling.
+97. Slight aches.
+98. A bad taste for some time.
+99. Giddiness.
+100. Laughter.

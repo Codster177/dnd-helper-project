@@ -143,7 +143,11 @@ G:/DND\ Helper\ Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project
   G:/Applications/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   G:/Applications/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+  G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
+  G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
+  G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
   G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   G:/Applications/QT/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -350,4 +354,5 @@ G:/DND\ Helper\ Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project
   G:/Applications/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   G:/Applications/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   G:/Applications/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  G:/DND\ Helper\ Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/basedie.h
+  G:/DND\ Helper\ Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/basedie.h \
+  G:/DND\ Helper\ Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/wildmagic.h

@@ -70,7 +70,7 @@ int baseDie::rollDie()
     int finalRoll = 0;
     for (int i = 0; i < amount; i++)
     {
-        int newRoll = QRandomGenerator::global()->bounded(1,dieNum);
+        int newRoll = QRandomGenerator::global()->bounded(1,(dieNum+1));
         finalRoll += newRoll;
         lastRolls.push_back(newRoll);
     }

@@ -1,23 +1,82 @@
 # ninja log v6
-55	1481	7453740820113909	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
-55	1481	7453740820113909	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
-1488	4319	7453740821644176	CMakeFiles/DND_Helper_Project.dir/main.cpp.obj	704e894532a8b683
-55	1481	7453740820113909	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
-55	1481	7453740820113909	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
-1484	4375	7453740821594168	CMakeFiles/DND_Helper_Project.dir/DND_Helper_Project_autogen/mocs_compilation.cpp.obj	bcfc6b55719fe520
-1495	5620	7453740821709187	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+54	374	7536158977499340	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+54	374	7536158977499340	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+1828	4525	7536157856350019	CMakeFiles/DND_Helper_Project.dir/main.cpp.obj	704e894532a8b683
+54	374	7536158977499340	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+54	374	7536158977499340	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+1823	4540	7536157856300005	CMakeFiles/DND_Helper_Project.dir/DND_Helper_Project_autogen/mocs_compilation.cpp.obj	bcfc6b55719fe520
+318	3617	7536102150056357	CMakeFiles/DND_Helper_Project.dir/wildmagic.cpp.obj	509b5e38f1937830
+376	3816	7536158980719913	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
 66	117	7453740805261331	CMakeFiles/clean.additional	c781631a4e0775fb
 117	131	7453740805771422	clean	3b2e4a4e734eaf20
-69	357	7453741554634451	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
-69	357	7453741554634451	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
-69	357	7453741554634451	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
-69	357	7453741554634451	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
-365	1561	7453741557594967	CMakeFiles/DND_Helper_Project.dir/basedie.cpp.obj	1a25bef69a8577ea
-360	4354	7453741557539958	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
-4355	4808	7453741597486890	DND_Helper_Project.exe	c3f76e80d1f98f75
-56	333	7453742218778063	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
-56	333	7453742218778063	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
-56	333	7453742218778063	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
-56	333	7453742218778063	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
-335	4684	7453742221563543	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
-4685	5181	7453742265066092	DND_Helper_Project.exe	c3f76e80d1f98f75
+280	1469	7534143432447410	CMakeFiles/DND_Helper_Project.dir/basedie.cpp.obj	1a25bef69a8577ea
+3816	4269	7536159015121001	DND_Helper_Project.exe	4754390d7b67d7f1
+44	1321	7534413437397159	build.ninja	44c84c2a9d1e64e4
+51	313	7536160090711557	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+51	313	7536160090711557	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+51	313	7536160090711557	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+51	313	7536160090711557	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+315	3660	7536160093352042	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3660	4110	7536160126802967	DND_Helper_Project.exe	4754390d7b67d7f1
+47	310	7536165055821580	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+47	310	7536165055821580	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+47	310	7536165055821580	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+47	310	7536165055821580	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+312	3733	7536165058467048	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3734	4198	7536165092688103	DND_Helper_Project.exe	4754390d7b67d7f1
+51	333	7536165327167766	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+51	333	7536165327167766	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+51	333	7536165327167766	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+51	333	7536165327167766	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+335	3768	7536165330008261	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3769	4229	7536165364349338	DND_Helper_Project.exe	4754390d7b67d7f1
+48	317	7536165807486293	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	317	7536165807486293	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+48	317	7536165807486293	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	317	7536165807486293	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+319	3685	7536165810191773	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3685	4142	7536165843852730	DND_Helper_Project.exe	4754390d7b67d7f1
+48	310	7536166087534226	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	310	7536166087534226	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+48	310	7536166087534226	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	310	7536166087534226	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+312	3664	7536166090169707	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3665	4113	7536166123695640	DND_Helper_Project.exe	4754390d7b67d7f1
+48	310	7536166769632973	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	310	7536166769632973	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+48	310	7536166769632973	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	310	7536166769632973	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+312	3703	7536166772268437	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3704	4151	7536166806189459	DND_Helper_Project.exe	4754390d7b67d7f1
+49	314	7536167298350934	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+49	314	7536167298350934	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+49	314	7536167298350934	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+49	314	7536167298350934	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+316	3680	7536167301021411	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3680	4122	7536167334662365	DND_Helper_Project.exe	4754390d7b67d7f1
+47	306	7536167801999434	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+47	306	7536167801999434	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+47	306	7536167801999434	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+47	306	7536167801999434	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+308	3685	7536167804614894	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3685	4135	7536167838380880	DND_Helper_Project.exe	4754390d7b67d7f1
+48	326	7536168132207149	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	326	7536168132207149	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+48	326	7536168132207149	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+48	326	7536168132207149	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+328	3743	7536168135002646	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3744	4197	7536168169158704	DND_Helper_Project.exe	4754390d7b67d7f1
+55	1317	7536169314801860	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+55	1317	7536169314801860	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+55	1317	7536169314801860	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+55	1317	7536169314801860	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+1325	3816	7536169316177096	CMakeFiles/DND_Helper_Project.dir/main.cpp.obj	704e894532a8b683
+1320	3926	7536169316132089	CMakeFiles/DND_Helper_Project.dir/DND_Helper_Project_autogen/mocs_compilation.cpp.obj	bcfc6b55719fe520
+1329	5047	7536169316227110	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+5048	5513	7536169353408700	DND_Helper_Project.exe	4754390d7b67d7f1
+52	317	7536170444309631	DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+52	317	7536170444309631	DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+52	317	7536170444309631	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/timestamp	e1c912fb76bc2f19
+52	317	7536170444309631	G:/DND Helper Project/dnd-helper-project/dnd-helper-project/DND_Helper_Project/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/DND_Helper_Project_autogen/mocs_compilation.cpp	e1c912fb76bc2f19
+319	3884	7536170446975082	CMakeFiles/DND_Helper_Project.dir/mainwindow.cpp.obj	b1f8adaf348decba
+3885	4326	7536170482626397	DND_Helper_Project.exe	4754390d7b67d7f1

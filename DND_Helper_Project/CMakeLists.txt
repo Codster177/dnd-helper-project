@@ -25,6 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(DND_Helper_Project
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        wildmagic.h wildmagic.cpp
+        wildmagiclist.txt
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET DND_Helper_Project APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

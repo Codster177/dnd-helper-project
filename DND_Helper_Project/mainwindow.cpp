@@ -8,9 +8,16 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    wildmagicRoller.loadList("wildmagiclist.txt");
+    wildmagicRoller.loadList("randompotionlist.txt");
+
+    rollModifier = 0;
+
     ui->setupUi(this);
 
     ui->listWidget_summary->addItem("Die rolls will appear here.");
+    ui->wildMagicTableList->addItem("Wild magic rolls will appear here:");
+    ui->rPotionTableList->addItem("Random potions will appear here:");
 }
 
 MainWindow::~MainWindow()
@@ -31,6 +38,13 @@ void MainWindow::clearDieList()
 {
     dieList.clear();
     ui->listWidget_dieList->clear();
+    ui->label_dieResult->clear();
+}
+
+void MainWindow::clearSummary()
+{
+    ui->listWidget_summary->clear();
+    ui->listWidget_summary->addItem("Die rolls will appear here.");
 }
 
 void MainWindow::rollDice()
@@ -59,6 +73,11 @@ void MainWindow::rollDice()
             }
         }
     }
+    if (rollModifier != 0)
+    {
+        afterSummary += QString(" + (") + QString::number(rollModifier) + QString(")");
+    }
+    total += rollModifier;
     ui->label_dieResult->setText(QString::number(total));
     QString summary = QString::number(total) + QString(" = ") + afterSummary;
     ui->listWidget_summary->addItem(summary);
@@ -136,7 +155,7 @@ void MainWindow::on_pushButton_D100_2_clicked()
     {
         return;
     }
-    int amount = ui->lineEdit_d4->text().toInt();
+    int amount = ui->lineEdit_d100->text().toInt();
     addDie(baseDie(amount, 100));
 }
 
@@ -164,5 +183,67 @@ void MainWindow::on_pushButton_clearList_clicked()
 void MainWindow::on_pushButton_rollDice_clicked()
 {
     rollDice();
+}
+
+
+void MainWindow::on_pushButton_clearSummary_clicked()
+{
+    clearSummary();
+}
+
+
+void MainWindow::on_pushButton_4_clicked() // WildMagic Generate Button
+{
+    std::vector<QString> wildMagicRoll = wildmagicRoller.rollDieWM(timeframe);
+    QListWidgetItem* newItem = new QListWidgetItem(wildMagicRoll[0], nullptr, 0);
+    newItem->setToolTip(wildMagicRoll[1]);
+    ui->wildMagicTableList->addItem(newItem);
+}
+
+
+void MainWindow::on_pushButtonWMClear_clicked()
+{
+    ui->wildMagicTableList->clear();
+    ui->wildMagicTableList->addItem("Wild magic rolls will appear here:");
+}
+
+
+void MainWindow::on_radioButton_3_toggled(bool checked) // Timeframe perameter
+{
+    timeframe = checked;
+}
+
+
+void MainWindow::on_pushButton_5_clicked() // Potion Generate Button
+{
+    std::vector<QString> wildMagicRoll = wildmagicRoller.rollDiePotion(sideEffects);
+    QListWidgetItem* newItem = new QListWidgetItem(wildMagicRoll[0], nullptr, 0);
+    newItem->setToolTip(wildMagicRoll[1]);
+    ui->rPotionTableList->addItem(newItem);
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    ui->rPotionTableList->clear();
+    ui->rPotionTableList->addItem("Random potions will appear here:");
+}
+
+
+void MainWindow::on_radioButton_toggled(bool checked) // Side Effect Button
+{
+    sideEffects = !checked;
+}
+
+
+void MainWindow::on_spinBox_valueChanged(int arg1)
+{
+    rollModifier = arg1;
+}
+
+
+void MainWindow::on_pushButton_3_clicked() // Zero out modifier
+{
+    ui->spinBox->setValue(0);
+    rollModifier = 0;
 }
 
