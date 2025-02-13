@@ -34,6 +34,14 @@ public:
     QVBoxLayout *verticalLayout_2;
     QGridLayout *gridLayout;
     QHBoxLayout *horizontalLayout_14;
+    QWidget *verticalWidget_4;
+    QVBoxLayout *verticalLayout_7;
+    QPushButton *pushButton_8;
+    QPushButton *pushButton_7;
+    QPushButton *pushButton_9;
+    QPushButton *pushButton_10;
+    QPushButton *pushButton_11;
+    QPushButton *pushButton_6;
     QWidget *verticalWidget;
     QVBoxLayout *verticalLayout_8;
     QHBoxLayout *horizontalLayout_17;
@@ -140,14 +148,104 @@ public:
         gridLayout->setContentsMargins(0, -1, -1, -1);
         horizontalLayout_14 = new QHBoxLayout();
         horizontalLayout_14->setObjectName("horizontalLayout_14");
+        verticalWidget_4 = new QWidget(centralwidget);
+        verticalWidget_4->setObjectName("verticalWidget_4");
+        verticalWidget_4->setEnabled(true);
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Maximum, QSizePolicy::Policy::Minimum);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(verticalWidget_4->sizePolicy().hasHeightForWidth());
+        verticalWidget_4->setSizePolicy(sizePolicy);
+        verticalWidget_4->setMinimumSize(QSize(70, 0));
+        verticalWidget_4->setMaximumSize(QSize(50, 16777215));
+        verticalLayout_7 = new QVBoxLayout(verticalWidget_4);
+        verticalLayout_7->setObjectName("verticalLayout_7");
+        verticalLayout_7->setSizeConstraint(QLayout::SizeConstraint::SetMinimumSize);
+        pushButton_8 = new QPushButton(verticalWidget_4);
+        pushButton_8->setObjectName("pushButton_8");
+        pushButton_8->setEnabled(true);
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Minimum);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(pushButton_8->sizePolicy().hasHeightForWidth());
+        pushButton_8->setSizePolicy(sizePolicy1);
+        pushButton_8->setIconSize(QSize(16, 16));
+        pushButton_8->setCheckable(true);
+        pushButton_8->setChecked(true);
+        pushButton_8->setAutoExclusive(true);
+
+        verticalLayout_7->addWidget(pushButton_8);
+
+        pushButton_7 = new QPushButton(verticalWidget_4);
+        pushButton_7->setObjectName("pushButton_7");
+        pushButton_7->setEnabled(true);
+        sizePolicy1.setHeightForWidth(pushButton_7->sizePolicy().hasHeightForWidth());
+        pushButton_7->setSizePolicy(sizePolicy1);
+        pushButton_7->setIconSize(QSize(16, 16));
+        pushButton_7->setCheckable(true);
+        pushButton_7->setChecked(true);
+        pushButton_7->setAutoExclusive(true);
+
+        verticalLayout_7->addWidget(pushButton_7);
+
+        pushButton_9 = new QPushButton(verticalWidget_4);
+        pushButton_9->setObjectName("pushButton_9");
+        pushButton_9->setEnabled(true);
+        sizePolicy1.setHeightForWidth(pushButton_9->sizePolicy().hasHeightForWidth());
+        pushButton_9->setSizePolicy(sizePolicy1);
+        pushButton_9->setIconSize(QSize(16, 16));
+        pushButton_9->setCheckable(true);
+        pushButton_9->setChecked(true);
+        pushButton_9->setAutoExclusive(true);
+
+        verticalLayout_7->addWidget(pushButton_9);
+
+        pushButton_10 = new QPushButton(verticalWidget_4);
+        pushButton_10->setObjectName("pushButton_10");
+        pushButton_10->setEnabled(true);
+        sizePolicy1.setHeightForWidth(pushButton_10->sizePolicy().hasHeightForWidth());
+        pushButton_10->setSizePolicy(sizePolicy1);
+        pushButton_10->setIconSize(QSize(16, 16));
+        pushButton_10->setCheckable(true);
+        pushButton_10->setChecked(true);
+        pushButton_10->setAutoExclusive(true);
+
+        verticalLayout_7->addWidget(pushButton_10);
+
+        pushButton_11 = new QPushButton(verticalWidget_4);
+        pushButton_11->setObjectName("pushButton_11");
+        pushButton_11->setEnabled(true);
+        sizePolicy1.setHeightForWidth(pushButton_11->sizePolicy().hasHeightForWidth());
+        pushButton_11->setSizePolicy(sizePolicy1);
+        pushButton_11->setIconSize(QSize(16, 16));
+        pushButton_11->setCheckable(true);
+        pushButton_11->setChecked(true);
+        pushButton_11->setAutoExclusive(true);
+
+        verticalLayout_7->addWidget(pushButton_11);
+
+        pushButton_6 = new QPushButton(verticalWidget_4);
+        pushButton_6->setObjectName("pushButton_6");
+        pushButton_6->setEnabled(true);
+        sizePolicy1.setHeightForWidth(pushButton_6->sizePolicy().hasHeightForWidth());
+        pushButton_6->setSizePolicy(sizePolicy1);
+        QFont font;
+        font.setPointSize(9);
+        pushButton_6->setFont(font);
+        pushButton_6->setCheckable(true);
+        pushButton_6->setChecked(false);
+        pushButton_6->setAutoExclusive(true);
+
+        verticalLayout_7->addWidget(pushButton_6);
+
+
+        horizontalLayout_14->addWidget(verticalWidget_4);
+
         verticalWidget = new QWidget(centralwidget);
         verticalWidget->setObjectName("verticalWidget");
         verticalWidget->setEnabled(true);
-        QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Minimum);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(verticalWidget->sizePolicy().hasHeightForWidth());
-        verticalWidget->setSizePolicy(sizePolicy);
+        sizePolicy1.setHeightForWidth(verticalWidget->sizePolicy().hasHeightForWidth());
+        verticalWidget->setSizePolicy(sizePolicy1);
         verticalLayout_8 = new QVBoxLayout(verticalWidget);
         verticalLayout_8->setObjectName("verticalLayout_8");
         verticalLayout_8->setContentsMargins(-1, -1, 5, -1);
@@ -156,11 +254,8 @@ public:
         horizontalLayout_17->setContentsMargins(-1, -1, 10, -1);
         verticalWidget_2 = new QWidget(verticalWidget);
         verticalWidget_2->setObjectName("verticalWidget_2");
-        QSizePolicy sizePolicy1(QSizePolicy::Policy::Maximum, QSizePolicy::Policy::Minimum);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(verticalWidget_2->sizePolicy().hasHeightForWidth());
-        verticalWidget_2->setSizePolicy(sizePolicy1);
+        sizePolicy.setHeightForWidth(verticalWidget_2->sizePolicy().hasHeightForWidth());
+        verticalWidget_2->setSizePolicy(sizePolicy);
         verticalWidget_2->setMaximumSize(QSize(125, 16777215));
         verticalLayout_9 = new QVBoxLayout(verticalWidget_2);
         verticalLayout_9->setSpacing(0);
@@ -174,10 +269,10 @@ public:
         label_2->setSizePolicy(sizePolicy2);
         label_2->setMinimumSize(QSize(100, 50));
         label_2->setMaximumSize(QSize(100, 16777215));
-        QFont font;
-        font.setBold(true);
-        font.setUnderline(true);
-        label_2->setFont(font);
+        QFont font1;
+        font1.setBold(true);
+        font1.setUnderline(true);
+        label_2->setFont(font1);
         label_2->setAlignment(Qt::AlignmentFlag::AlignCenter);
         label_2->setWordWrap(true);
 
@@ -214,8 +309,8 @@ public:
 
         wildMagicTableList = new QListWidget(verticalWidget);
         wildMagicTableList->setObjectName("wildMagicTableList");
-        sizePolicy1.setHeightForWidth(wildMagicTableList->sizePolicy().hasHeightForWidth());
-        wildMagicTableList->setSizePolicy(sizePolicy1);
+        sizePolicy.setHeightForWidth(wildMagicTableList->sizePolicy().hasHeightForWidth());
+        wildMagicTableList->setSizePolicy(sizePolicy);
         wildMagicTableList->setMinimumSize(QSize(0, 200));
         wildMagicTableList->setMaximumSize(QSize(700, 16777215));
         wildMagicTableList->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
@@ -236,8 +331,8 @@ public:
         horizontalLayout_15->setContentsMargins(-1, -1, 10, -1);
         verticalWidget_3 = new QWidget(verticalWidget);
         verticalWidget_3->setObjectName("verticalWidget_3");
-        sizePolicy1.setHeightForWidth(verticalWidget_3->sizePolicy().hasHeightForWidth());
-        verticalWidget_3->setSizePolicy(sizePolicy1);
+        sizePolicy.setHeightForWidth(verticalWidget_3->sizePolicy().hasHeightForWidth());
+        verticalWidget_3->setSizePolicy(sizePolicy);
         verticalWidget_3->setMaximumSize(QSize(125, 16777215));
         verticalLayout_10 = new QVBoxLayout(verticalWidget_3);
         verticalLayout_10->setSpacing(0);
@@ -248,7 +343,7 @@ public:
         label_3->setSizePolicy(sizePolicy2);
         label_3->setMinimumSize(QSize(100, 0));
         label_3->setMaximumSize(QSize(100, 16777215));
-        label_3->setFont(font);
+        label_3->setFont(font1);
         label_3->setAlignment(Qt::AlignmentFlag::AlignCenter);
         label_3->setWordWrap(true);
 
@@ -279,8 +374,8 @@ public:
 
         rPotionTableList = new QListWidget(verticalWidget);
         rPotionTableList->setObjectName("rPotionTableList");
-        sizePolicy1.setHeightForWidth(rPotionTableList->sizePolicy().hasHeightForWidth());
-        rPotionTableList->setSizePolicy(sizePolicy1);
+        sizePolicy.setHeightForWidth(rPotionTableList->sizePolicy().hasHeightForWidth());
+        rPotionTableList->setSizePolicy(sizePolicy);
         rPotionTableList->setMinimumSize(QSize(0, 200));
         rPotionTableList->setMaximumSize(QSize(700, 16777215));
 
@@ -319,9 +414,9 @@ public:
         sizePolicy6.setVerticalStretch(0);
         sizePolicy6.setHeightForWidth(label_dieResult->sizePolicy().hasHeightForWidth());
         label_dieResult->setSizePolicy(sizePolicy6);
-        QFont font1;
-        font1.setPointSize(16);
-        label_dieResult->setFont(font1);
+        QFont font2;
+        font2.setPointSize(16);
+        label_dieResult->setFont(font2);
         label_dieResult->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         verticalLayout_3->addWidget(label_dieResult);
@@ -703,15 +798,15 @@ public:
 
         pushButton_clearList = new QPushButton(diceRollerWidget);
         pushButton_clearList->setObjectName("pushButton_clearList");
-        sizePolicy.setHeightForWidth(pushButton_clearList->sizePolicy().hasHeightForWidth());
-        pushButton_clearList->setSizePolicy(sizePolicy);
+        sizePolicy1.setHeightForWidth(pushButton_clearList->sizePolicy().hasHeightForWidth());
+        pushButton_clearList->setSizePolicy(sizePolicy1);
 
         horizontalLayout_3->addWidget(pushButton_clearList);
 
         pushButton_rollDice = new QPushButton(diceRollerWidget);
         pushButton_rollDice->setObjectName("pushButton_rollDice");
-        sizePolicy.setHeightForWidth(pushButton_rollDice->sizePolicy().hasHeightForWidth());
-        pushButton_rollDice->setSizePolicy(sizePolicy);
+        sizePolicy1.setHeightForWidth(pushButton_rollDice->sizePolicy().hasHeightForWidth());
+        pushButton_rollDice->setSizePolicy(sizePolicy1);
 
         horizontalLayout_3->addWidget(pushButton_rollDice);
 
@@ -768,6 +863,45 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+#if QT_CONFIG(tooltip)
+        pushButton_8->setToolTip(QCoreApplication::translate("MainWindow", "Special Dice", nullptr));
+#endif // QT_CONFIG(tooltip)
+#if QT_CONFIG(whatsthis)
+        pushButton_8->setWhatsThis(QString());
+#endif // QT_CONFIG(whatsthis)
+        pushButton_8->setText(QString());
+#if QT_CONFIG(tooltip)
+        pushButton_7->setToolTip(QCoreApplication::translate("MainWindow", "Special Dice", nullptr));
+#endif // QT_CONFIG(tooltip)
+#if QT_CONFIG(whatsthis)
+        pushButton_7->setWhatsThis(QString());
+#endif // QT_CONFIG(whatsthis)
+        pushButton_7->setText(QString());
+#if QT_CONFIG(tooltip)
+        pushButton_9->setToolTip(QCoreApplication::translate("MainWindow", "Special Dice", nullptr));
+#endif // QT_CONFIG(tooltip)
+#if QT_CONFIG(whatsthis)
+        pushButton_9->setWhatsThis(QString());
+#endif // QT_CONFIG(whatsthis)
+        pushButton_9->setText(QString());
+#if QT_CONFIG(tooltip)
+        pushButton_10->setToolTip(QCoreApplication::translate("MainWindow", "Special Dice", nullptr));
+#endif // QT_CONFIG(tooltip)
+#if QT_CONFIG(whatsthis)
+        pushButton_10->setWhatsThis(QString());
+#endif // QT_CONFIG(whatsthis)
+        pushButton_10->setText(QString());
+#if QT_CONFIG(tooltip)
+        pushButton_11->setToolTip(QCoreApplication::translate("MainWindow", "Special Dice", nullptr));
+#endif // QT_CONFIG(tooltip)
+#if QT_CONFIG(whatsthis)
+        pushButton_11->setWhatsThis(QString());
+#endif // QT_CONFIG(whatsthis)
+        pushButton_11->setText(QString());
+#if QT_CONFIG(tooltip)
+        pushButton_6->setToolTip(QCoreApplication::translate("MainWindow", "Initiative Tracker (WIP)", nullptr));
+#endif // QT_CONFIG(tooltip)
+        pushButton_6->setText(QString());
         label_2->setText(QCoreApplication::translate("MainWindow", "Wild Magic Table", nullptr));
         radioButton_3->setText(QCoreApplication::translate("MainWindow", "Timeframe", nullptr));
         pushButton_4->setText(QCoreApplication::translate("MainWindow", "Generate", nullptr));
